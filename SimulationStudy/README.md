@@ -13,10 +13,11 @@ SimFit/runblockNNGP.R: fit the NNGP and blockNNGP models to the simulated data.
 "blockNNGPrgeneric.R", "blockNNGPfunction.R",  "blockNNGPfunction1.R", "NNGPrgeneric.R",
 "NNGPfunction.R", "runblockNNGP.R".
 
-
-Zaida Quiroz\\
-Science Department\\
+```
+Zaida Quiroz
+Science Department
 School of Mathematics
 Pontificia Universidad Católica del Perú
 Lima, Perú
 E-mail: zquiroz@pucp.edu.pe
+```
