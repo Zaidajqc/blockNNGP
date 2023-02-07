@@ -1,3 +1,4 @@
-Fast Bayesian inference of Block Nearest Neighbor Gaussian models for large data
+#Fast Bayesian inference of Block Nearest Neighbor Gaussian models for large data
 
-Zaida Quiroz,  Marcos Prates, Dipak K. Dey and Håvard Rue.
+##Zaida Quiroz,  Marcos Prates, Dipak K. Dey and Håvard Rue.
+
