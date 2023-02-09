@@ -7,7 +7,7 @@ We provide the R code needed to run a simulation study of NNGP and block-NNGP mo
 All results are obtained using R and the packages "fields", "lattice", "akima", "Matrix", "slam", "igraph", "coda", "MBA", , "mvtnorm", "ggforce", "Rcpp", "tidyverse" and "raster" all available on CRAN. You have to add "INLA"  from https://www.r-inla.org/download-install.  Main code (with example usage) is denoted by [main]. 
 
 
-- [main]SimFit/runblockNNGP.R: simulate gaussian data and fit the NNGP and blockNNGP models to the simulated data. The user can simulate data from other distributions available in INLA, please see https://www.r-inla.org/documentation#h.ldt45kpbu659.
+- [main]SimFit/runblockNNGP.R: simulate gaussian data and fit the NNGP and blockNNGP models to the simulated data. The user can simulate data from other distributions available in INLA, please see https://www.r-inla.org/documentation#h.ldt45kpbu659 for some examples. And use the following command in R: inla.list.models()
 - SimFit/blockNNGPfunctionREGULAR.R: auxiliary code that contains blockNNGP functions for regular blocks. For simulated data from non-gaussian distributions change the family in inla() function. 
 - SimFit/blockNNGPfunctionIRREGULAR.R: auxiliary code that contains blockNNGP functions for irregular blocks. For simulated data from  non-gaussian distributions change the family in inla() function. 
 - SimFit/Irregblock.R:  auxiliary functions to build irregular blocks.
