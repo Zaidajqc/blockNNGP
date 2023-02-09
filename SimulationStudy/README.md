@@ -8,11 +8,11 @@ All results are obtained using R and the packages "fields", "lattice", "akima", 
 
 
 - [main]SimFit/runblockNNGP.R: simulate gaussian data and fit the NNGP and blockNNGP models to the simulated data. The user can simulate data from other distributions available in INLA, please see https://www.r-inla.org/documentation#h.ldt45kpbu659.
-- SimFit/blockNNGPfunctionREGULAR.R: auxiliary code that contains blockNNGP functions for regular blocks. For simulated data from other distributions change the family in inla() function. 
-- SimFit/blockNNGPfunctionIRREGULAR.R: auxiliary code that contains blockNNGP functions for irregular blocks. For simulated data from other distributions change the family in inla() function. 
+- SimFit/blockNNGPfunctionREGULAR.R: auxiliary code that contains blockNNGP functions for regular blocks. For simulated data from non-gaussian distributions change the family in inla() function. 
+- SimFit/blockNNGPfunctionIRREGULAR.R: auxiliary code that contains blockNNGP functions for irregular blocks. For simulated data from  non-gaussian distributions change the family in inla() function. 
 - SimFit/Irregblock.R:  auxiliary functions to build irregular blocks.
 - SimFit/blockNNGPrgeneric.R: INLA-rgeneric code for blockNNGP.
-- SimFit/NNGPfunction.R: auxiliary code that contains NNGP functions. For simulated data from other distributions change the family in inla() function. 
+- SimFit/NNGPfunction.R: auxiliary code that contains NNGP functions. For simulated data from non-gaussian distributions change the family in inla() function. 
 - SimFit/NNGPrgeneric.R: INLA-rgeneric code for NNGP.
 - SimFit/utils.R:  auxiliary functions.
 
