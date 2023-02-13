@@ -1,3 +1,4 @@
+# Fast Bayesian inference of Block Nearest Neighbor Gaussian models for gaussian data
 
 - [main]SimFit/runblockNNGP.R: simulate  gaussian data and fit the NNGP and blockNNGP models to the simulated data. 
 - SimFit/blockNNGPfunctionREGULAR.R: auxiliary code that contains blockNNGP functions for regular blocks. We set family="gaussian" in inla() function. 
