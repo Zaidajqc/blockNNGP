@@ -171,7 +171,7 @@ f.blockNNGP <- y ~ 1 + x + f(idx, model = blockNNGP.model)
 # The user can change the family and priors here.
 resf <- inla(f.blockNNGP, data = as.data.frame(data1), family = "gamma")
 
-# Recovering the posterior mean estimation of nugget, marginal variance and phi parameters.
+# Recovering the posterior mean estimation of precision parameter  of gamma distribution, marginal variance and phi parameters.
 # It depends on the internal representation of the hyperparameters.
 prec.gamma 	<- resf$summary.hyperpar$mean[1]
 sigmasq.est 	<- exp(-resf$summary.hyperpar$mean[2])
